@@ -12,3 +12,7 @@ Command to copy datafrom local file system to HDFS
 ```bash
 hadoop fs -put test_demo/trees.csv /input_data
 ```
+COPY TO HDFS TO LOCAL FS
+```bash
+hadoop fs -copyToLocal /hadoop-user/trees.csv ./
+```
