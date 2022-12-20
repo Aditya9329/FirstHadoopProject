@@ -16,3 +16,8 @@ COPY TO HDFS TO LOCAL FS
 ```bash
 hadoop fs -copyToLocal /hadoop-user/trees.csv ./
 ```
+
+Delete the directory in hadoop
+```bash
+hadoop fs -rm -r /test
+```
