@@ -21,3 +21,11 @@ Delete the directory in hadoop
 ```bash
 hadoop fs -rm -r /test
 ```
+To load data from local file system to Hive then command is
+```bash
+load data local inpath 'filepath' into table table_name;
+```
+To load data from HDFS to hive the command is
+```bash
+load data inpath 'hadoop data dir_path' into table employee;
+```
